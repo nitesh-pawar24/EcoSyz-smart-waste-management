@@ -1,4 +1,4 @@
-﻿# ΓÖ╗∩╕Å Smart Garbage Collection & Waste Management System
+# ΓÖ╗∩╕Å Smart Garbage Collection & Waste Management System
 
 [![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-15_(App_Router)-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
