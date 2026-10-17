@@ -1,4 +1,4 @@
-# ΓÖ╗∩╕Å Smart Garbage Collection & Waste Management System
+# EcoSyz - A Smart Garbage Collection & Waste Management System
 
 [![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-15_(App_Router)-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -11,7 +11,7 @@ An enterprise-grade, end-to-end IoT and mobile-enabled **Smart Garbage Collectio
 
 ---
 
-## ≡ƒôæ Table of Contents
+## Table of Contents
 
 - [System Architecture](#-system-architecture)
 - [Project Modules Overview](#-project-modules-overview)
@@ -32,7 +32,7 @@ An enterprise-grade, end-to-end IoT and mobile-enabled **Smart Garbage Collectio
 
 ---
 
-## ≡ƒÅù∩╕Å System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -69,7 +69,7 @@ graph TD
 
 ---
 
-## ≡ƒôª Project Modules Overview
+## Project Modules Overview
 
 The repository is structured into 5 cohesive sub-projects:
 
@@ -83,35 +83,35 @@ The repository is structured into 5 cohesive sub-projects:
 
 ---
 
-## Γ£¿ Key Features
+## Key Features
 
-### 1. ≡ƒÄñ Hands-Free Voice-Assisted Collection
+### 1. Hands-Free Voice-Assisted Collection
 - Garbage collectors can record waste collection without typing using native speech recognition (`expo-speech-recognition`).
 - Supports voice commands like *"Household 102 collected 2 kg wet waste"*.
 
-### 2. ≡ƒô╖ Smart Dustbin QR Code Generation & Verification
+### 2. Smart Dustbin QR Code Generation & Verification
 - Admins generate unique QR codes for every household/community dustbin.
 - Collectors scan dustbin QR codes in milliseconds using the in-app scanner to verify physical pickup at exact GPS coordinates.
 
-### 3. ≡ƒù║∩╕Å GPS Route Navigation & Live Dustbin Mapping
+### 3. GPS Route Navigation & Live Dustbin Mapping
 - Interactive map view displays pending, in-progress, and collected dustbins on the driver's route.
 - Reduces missed collections and optimizes vehicle fuel consumption.
 
-### 4. ≡ƒòÆ Geofenced Attendance & Worker Verification
+### 4. Geofenced Attendance & Worker Verification
 - Staff check in/out on the mobile app with location timestamps to ensure accountability.
 
-### 5. ≡ƒôè Analytics, Automated PDF & Excel Reporting
+### 5. Analytics, Automated PDF & Excel Reporting
 - Admins export detailed compliance reports, daily collection logs, and attendance summaries in PDF (via `jspdf-autotable`) and Excel (`xlsx`).
 
-### 6. ≡ƒÜ¿ Citizen Grievance & Special Booking System
+### 6. Citizen Grievance & Special Booking System
 - Households can report missed pickups, overflow issues, or request special bulky waste collections with photo proof.
 
-### 7. ≡ƒöÉ Seamless Passwordless OTP Authentication
+### 7. Seamless Passwordless OTP Authentication
 - Secure phone number + OTP login for all roles (Super Admin, Panchayat Admins, Citizens, and Field Labourers).
 
 ---
 
-## ≡ƒöä How the System Works (End-to-End Workflow)
+## How the System Works (End-to-End Workflow)
 
 ```mermaid
 sequenceDiagram
@@ -134,7 +134,7 @@ sequenceDiagram
 
 ---
 
-## ≡ƒÆ╗ Prerequisites
+## Prerequisites
 
 Ensure you have the following installed on your development machine:
 
@@ -149,7 +149,7 @@ Ensure you have the following installed on your development machine:
 
 ---
 
-## ≡ƒÜÇ Quick Start Guide
+## Quick Start Guide
 
 Open separate terminal windows for each component you wish to run:
 
@@ -213,7 +213,7 @@ npm start
 
 ---
 
-## ≡ƒöæ Examiner & Test Login Credentials
+## Examiner & Test Login Credentials
 
 Use the following test credentials to evaluate each portal:
 
@@ -228,11 +228,11 @@ Use the following test credentials to evaluate each portal:
 | **Labour Mobile App** | Worker (Chicalim) | `9876543210` | Displayed on screen / `123456` | Field collector app |
 | **Labour Mobile App** | Worker (Mauxi) | `9777777777` | Displayed on screen / `123456` | Field collector app |
 
-> ≡ƒÆí **Note:** During local testing, OTPs are also printed directly into the **Backend Terminal Console**.
+> **Note:** During local testing, OTPs are also printed directly into the **Backend Terminal Console**.
 
 ---
 
-## ΓÜÖ∩╕Å Environment Variables Configuration
+## Environment Variables Configuration
 
 Create `.env` or `.env.local` files in each sub-directory:
 
@@ -272,9 +272,9 @@ export const API_URL = 'http://192.168.1.33:8000/api';
 
 ---
 
-## ≡ƒô▒ Mobile App (Labour App) Build Guide
+## Mobile App (Labour App) Build Guide
 
-> ΓÜá∩╕Å **Notice**: The Labour App uses native device capabilities (**`expo-speech-recognition`**, **`expo-camera`**, **`expo-location`**) that require a custom development client or standalone APK rather than standard Expo Go.
+> **Notice**: The Labour App uses native device capabilities (**`expo-speech-recognition`**, **`expo-camera`**, **`expo-location`**) that require a custom development client or standalone APK rather than standard Expo Go.
 
 ### Option A: Build Standalone APK (Recommended)
 Generate an installable `.apk` for Android using EAS Cloud:
@@ -299,7 +299,7 @@ npm run android
 
 ---
 
-## ≡ƒöî Backend API Endpoints Summary
+## Backend API Endpoints Summary
 
 | Endpoint Group | Base Route | Key Operations |
 | :--- | :--- | :--- |
@@ -317,7 +317,7 @@ npm run android
 
 ---
 
-## Γ¥ô Troubleshooting & FAQ
+## Troubleshooting & FAQ
 
 ### 1. Mobile app displays "Network Error" when logging in
 - Ensure your mobile device and backend server are connected to the **same local Wi-Fi network**.
@@ -336,8 +336,4 @@ npm run android
 
 ---
 
-## ≡ƒæÑ Contributors & License
 
-- **Developed by**: Suprit Pal & Team
-- **Repository**: [smart-garbage-collection-system](https://github.com/supritpal/smart-garbage-collection-system.git)
-- **License**: ISC
