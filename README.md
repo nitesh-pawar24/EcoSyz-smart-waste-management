@@ -175,7 +175,9 @@ npm run dev
 ### 2. User / Citizen Frontend
 
 The User / Citizen Frontend is deployed and can be accessed here:
+
 Live Website: https://smartgarbagesystem.kamsoft.co.in/
+
 For local development, run:
 
 ```bash
