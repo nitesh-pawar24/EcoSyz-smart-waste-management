@@ -1,4 +1,4 @@
-# ♻️ Smart Garbage Collection & Waste Management System
+﻿# ΓÖ╗∩╕Å Smart Garbage Collection & Waste Management System
 
 [![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-15_(App_Router)-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -11,7 +11,7 @@ An enterprise-grade, end-to-end IoT and mobile-enabled **Smart Garbage Collectio
 
 ---
 
-## 📑 Table of Contents
+## ≡ƒôæ Table of Contents
 
 - [System Architecture](#-system-architecture)
 - [Project Modules Overview](#-project-modules-overview)
@@ -32,27 +32,27 @@ An enterprise-grade, end-to-end IoT and mobile-enabled **Smart Garbage Collectio
 
 ---
 
-## 🏗️ System Architecture
+## ≡ƒÅù∩╕Å System Architecture
 
 ```mermaid
 graph TD
     subgraph "Clients & Portals"
-        A[📱 Labour Mobile App<br/>React Native / Expo SDK 57]
-        B[🏡 Citizen / User Portal<br/>Next.js 15 App Router]
-        C[🏛️ Panchayat Admin Portal<br/>Next.js 15 App Router]
-        D[🌐 Super Admin Portal<br/>Next.js 15]
+        A[≡ƒô▒ Labour Mobile App<br/>React Native / Expo SDK 57]
+        B[≡ƒÅí Citizen / User Portal<br/>Next.js 15 App Router]
+        C[≡ƒÅ¢∩╕Å Panchayat Admin Portal<br/>Next.js 15 App Router]
+        D[≡ƒîÉ Super Admin Portal<br/>Next.js 15]
     end
 
     subgraph "Backend Core"
-        E[⚡ Node.js + Express API Server<br/>Port 8000]
-        F[🔐 JWT & OTP Auth Engine]
-        G[⏰ Node-Cron Scheduler]
-        H[📁 Multer File Uploads]
+        E[ΓÜí Node.js + Express API Server<br/>Port 8000]
+        F[≡ƒöÉ JWT & OTP Auth Engine]
+        G[ΓÅ░ Node-Cron Scheduler]
+        H[≡ƒôü Multer File Uploads]
     end
 
     subgraph "Database & Storage"
-        I[(🍃 MongoDB Atlas Database)]
-        J[☁️ Cloud Storage / Uploads]
+        I[(≡ƒìâ MongoDB Atlas Database)]
+        J[Γÿü∩╕Å Cloud Storage / Uploads]
     end
 
     A -- "Voice Logs / QR Scans / GPS Attendance" --> E
@@ -69,7 +69,7 @@ graph TD
 
 ---
 
-## 📦 Project Modules Overview
+## ≡ƒôª Project Modules Overview
 
 The repository is structured into 5 cohesive sub-projects:
 
@@ -83,43 +83,43 @@ The repository is structured into 5 cohesive sub-projects:
 
 ---
 
-## ✨ Key Features
+## Γ£¿ Key Features
 
-### 1. 🎤 Hands-Free Voice-Assisted Collection
+### 1. ≡ƒÄñ Hands-Free Voice-Assisted Collection
 - Garbage collectors can record waste collection without typing using native speech recognition (`expo-speech-recognition`).
 - Supports voice commands like *"Household 102 collected 2 kg wet waste"*.
 
-### 2. 📷 Smart Dustbin QR Code Generation & Verification
+### 2. ≡ƒô╖ Smart Dustbin QR Code Generation & Verification
 - Admins generate unique QR codes for every household/community dustbin.
 - Collectors scan dustbin QR codes in milliseconds using the in-app scanner to verify physical pickup at exact GPS coordinates.
 
-### 3. 🗺️ GPS Route Navigation & Live Dustbin Mapping
+### 3. ≡ƒù║∩╕Å GPS Route Navigation & Live Dustbin Mapping
 - Interactive map view displays pending, in-progress, and collected dustbins on the driver's route.
 - Reduces missed collections and optimizes vehicle fuel consumption.
 
-### 4. 🕒 Geofenced Attendance & Worker Verification
+### 4. ≡ƒòÆ Geofenced Attendance & Worker Verification
 - Staff check in/out on the mobile app with location timestamps to ensure accountability.
 
-### 5. 📊 Analytics, Automated PDF & Excel Reporting
+### 5. ≡ƒôè Analytics, Automated PDF & Excel Reporting
 - Admins export detailed compliance reports, daily collection logs, and attendance summaries in PDF (via `jspdf-autotable`) and Excel (`xlsx`).
 
-### 6. 🚨 Citizen Grievance & Special Booking System
+### 6. ≡ƒÜ¿ Citizen Grievance & Special Booking System
 - Households can report missed pickups, overflow issues, or request special bulky waste collections with photo proof.
 
-### 7. 🔐 Seamless Passwordless OTP Authentication
+### 7. ≡ƒöÉ Seamless Passwordless OTP Authentication
 - Secure phone number + OTP login for all roles (Super Admin, Panchayat Admins, Citizens, and Field Labourers).
 
 ---
 
-## 🔄 How the System Works (End-to-End Workflow)
+## ≡ƒöä How the System Works (End-to-End Workflow)
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor Household as 🏡 Citizen / Household
-    actor Worker as 🚛 Collection Labour
-    actor Admin as 🏛️ Panchayat Admin
-    participant System as ⚡ Smart Backend & DB
+    actor Household as ≡ƒÅí Citizen / Household
+    actor Worker as ≡ƒÜ¢ Collection Labour
+    actor Admin as ≡ƒÅ¢∩╕Å Panchayat Admin
+    participant System as ΓÜí Smart Backend & DB
 
     Admin->>System: Register Wards, Routes & Households
     System-->>Admin: Generates QR Codes for Bins
@@ -134,7 +134,7 @@ sequenceDiagram
 
 ---
 
-## 💻 Prerequisites
+## ≡ƒÆ╗ Prerequisites
 
 Ensure you have the following installed on your development machine:
 
@@ -149,7 +149,7 @@ Ensure you have the following installed on your development machine:
 
 ---
 
-## 🚀 Quick Start Guide
+## ≡ƒÜÇ Quick Start Guide
 
 Open separate terminal windows for each component you wish to run:
 
@@ -213,7 +213,7 @@ npm start
 
 ---
 
-## 🔑 Examiner & Test Login Credentials
+## ≡ƒöæ Examiner & Test Login Credentials
 
 Use the following test credentials to evaluate each portal:
 
@@ -228,11 +228,11 @@ Use the following test credentials to evaluate each portal:
 | **Labour Mobile App** | Worker (Chicalim) | `9876543210` | Displayed on screen / `123456` | Field collector app |
 | **Labour Mobile App** | Worker (Mauxi) | `9777777777` | Displayed on screen / `123456` | Field collector app |
 
-> 💡 **Note:** During local testing, OTPs are also printed directly into the **Backend Terminal Console**.
+> ≡ƒÆí **Note:** During local testing, OTPs are also printed directly into the **Backend Terminal Console**.
 
 ---
 
-## ⚙️ Environment Variables Configuration
+## ΓÜÖ∩╕Å Environment Variables Configuration
 
 Create `.env` or `.env.local` files in each sub-directory:
 
@@ -272,9 +272,9 @@ export const API_URL = 'http://192.168.1.33:8000/api';
 
 ---
 
-## 📱 Mobile App (Labour App) Build Guide
+## ≡ƒô▒ Mobile App (Labour App) Build Guide
 
-> ⚠️ **Notice**: The Labour App uses native device capabilities (**`expo-speech-recognition`**, **`expo-camera`**, **`expo-location`**) that require a custom development client or standalone APK rather than standard Expo Go.
+> ΓÜá∩╕Å **Notice**: The Labour App uses native device capabilities (**`expo-speech-recognition`**, **`expo-camera`**, **`expo-location`**) that require a custom development client or standalone APK rather than standard Expo Go.
 
 ### Option A: Build Standalone APK (Recommended)
 Generate an installable `.apk` for Android using EAS Cloud:
@@ -299,7 +299,7 @@ npm run android
 
 ---
 
-## 🔌 Backend API Endpoints Summary
+## ≡ƒöî Backend API Endpoints Summary
 
 | Endpoint Group | Base Route | Key Operations |
 | :--- | :--- | :--- |
@@ -317,7 +317,7 @@ npm run android
 
 ---
 
-## ❓ Troubleshooting & FAQ
+## Γ¥ô Troubleshooting & FAQ
 
 ### 1. Mobile app displays "Network Error" when logging in
 - Ensure your mobile device and backend server are connected to the **same local Wi-Fi network**.
@@ -336,7 +336,7 @@ npm run android
 
 ---
 
-## 👥 Contributors & License
+## ≡ƒæÑ Contributors & License
 
 - **Developed by**: Suprit Pal & Team
 - **Repository**: [smart-garbage-collection-system](https://github.com/supritpal/smart-garbage-collection-system.git)
