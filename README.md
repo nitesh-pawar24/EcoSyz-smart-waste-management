@@ -174,6 +174,10 @@ npm run dev
 
 ### 2. User / Citizen Frontend
 
+The User / Citizen Frontend is deployed and can be accessed here:
+Live Website: https://smartgarbagesystem.kamsoft.co.in/
+For local development, run:
+
 ```bash
 cd user-frontend
 npm install
@@ -194,6 +198,8 @@ npm run dev
 
 > Access Admin Portal at: **`http://localhost:3000`**
 
+The Panchayat Admin Portal is intended for authorized Panchayat and company use only. Its deployed link is not shared publicly because my internship company has restricted access to these internal portals.
+
 ---
 
 ### 4. Super Admin Frontend
@@ -206,6 +212,8 @@ npm run dev
 
 > Access Super Admin Portal at: **`http://localhost:3001`**
 
+The Super Admin Portal is intended for authorized company use only. Its deployed link is not shared publicly because my internship company has restricted access to these internal portals.
+
 ---
 
 ### 5. Labour Mobile App
@@ -217,7 +225,7 @@ npm install
 npm start
 ```
 
-> For testing native modules (Voice Recognition & Camera), see the [Mobile App Build Guide](#-mobile-app-labour-app-build-guide).
+The Android APK is provided only to authorized field workers (labourers) for their official use. It is not publicly distributed. For development and testing of native modules (Voice Recognition & Camera), see the Mobile App Build Guide.
 
 ---
 
